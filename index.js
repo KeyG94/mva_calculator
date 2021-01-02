@@ -6,11 +6,11 @@ product.addEventListener("keyup", function(){
     if(product.value){
         setTimeout(() => {
             findOriginalPrice()
-        }, 500)
+        }, 100)
     } else {
         output.innerHTML = `
         <p>
-        Tast in prisen på produktet du ønsker å finne pris uten moms i feltet over.
+        Pris uten mva: 
         </p>
         `;
     }
